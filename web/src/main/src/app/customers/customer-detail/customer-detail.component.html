@@ -1,0 +1,9 @@
+<div *ngIf="customer">
+  <h2>customer {{customer.name}} details</h2>
+  <div>
+    <label>Name: </label> {{customer.name}}
+    <input [(ngModel)]="customer.name" placeholder="name">
+  </div>
+  <button (click)="goBack()">Back</button>
+  <button (click)="save()">Save</button>
+</div>

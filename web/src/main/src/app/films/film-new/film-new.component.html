@@ -1,0 +1,18 @@
+<br>
+<h1>Add film</h1>
+<div class="tot">
+  <div>
+    <label>Title</label>
+    <input #title><br>
+    <label>Director</label>
+    <input #director><br>
+    <label>Release Year</label>
+    <input #releaseYear><br>
+  </div>
+  <div>
+    <button (click)="save(title.value,director.value,releaseYear.value)">Save
+    </button>
+    <button (click)="cancel()">Cancel</button>
+  </div>
+</div>
+

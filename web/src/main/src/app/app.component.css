@@ -1,0 +1,89 @@
+/*@font-face {*/
+/*  font-family: "Futura Maxi W05 Bold";*/
+/*  src: url("https://madeinhaus.com/static/fonts/futura-maxi-book/0e662f70-ee40-4614-a714-d437cac98931.woff2") format("woff2"),*/
+/*  url("https://madeinhaus.com/static/fonts/futura-maxi-book/0e662f70-ee40-4614-a714-d437cac98931.woff2") format("woff");*/
+/*}*/
+
+/*body {*/
+/*  background-color: #eee2dc;*/
+/*  height: 800px;*/
+/*  margin: -30px -10px -10px -8px;*/
+/*}*/
+
+/*div {*/
+/*  display: inline;*/
+/*}*/
+
+/*h1 {*/
+/*  font-size: 40px;*/
+/*  font-weight: bolder;*/
+/*  font-family: "Futura Maxi W05 Bold";*/
+/*  color: #eee2dc;*/
+/*  background-color: #ac3b61;*/
+/*  margin-top: -10px;*/
+/*  height: 60px;*/
+/*  margin-left: -10px;*/
+/*  margin-right: -10px;*/
+/*  padding-top: 15px;*/
+/*  padding-bottom: 15px;*/
+/*  text-align: center;*/
+/*}*/
+
+/*h2 {*/
+/*  font-size: 2em;*/
+/*  margin-top: 0;*/
+/*  padding-top: 0;*/
+/*}*/
+
+/*div > nav {*/
+/*  margin-top:-30px;*/
+/*  text-align: center;*/
+/*  padding-top: 30px;*/
+/*  display:inline-flex;*/
+/*}*/
+
+/*div nav a {*/
+/*  padding: 20px 0px 20px 0px;*/
+/*  text-decoration: none;*/
+/*  background-color: #123c68;*/
+/*  width:429px;*/
+/*  font-stretch: extra-expanded;*/
+/*  font-family: "Futura Maxi W05 Bold";*/
+/*  font-weight: lighter;*/
+/*}*/
+
+div nav a:visited, a:link {
+  color: #607D8B;
+}
+
+div nav a:hover {
+  color: white;
+}
+
+div nav a.active {
+  color: white;
+
+}
+.bg{
+ padding-left: 540px;
+}
+/*div div {*/
+/*  width: 100%;*/
+/*  align-items: center;*/
+/*  align-self: center;*/
+/*  display: inline-flex;*/
+/*}*/
+
+div>nav>a{
+  text-decoration: none;
+  align-self:center;
+  padding:12px 12px 12px 12px;
+  color: white;
+  outline: black;
+  border-style: solid;
+
+ border-color: lightgrey;
+  border-width: 2px;
+  border-radius: 15px;
+}
+

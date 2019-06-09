@@ -1,0 +1,28 @@
+/*@font-face {*/
+/*  font-family: "Futura Maxi W05 Bold";*/
+/*  src: url("https://madeinhaus.com/static/fonts/futura-maxi-book/0e662f70-ee40-4614-a714-d437cac98931.woff2") format("woff2"),*/
+/*  url("https://madeinhaus.com/static/fonts/futura-maxi-book/0e662f70-ee40-4614-a714-d437cac98931.woff2") format("woff");*/
+/*}*/
+/*button{*/
+/*  background-color: #ac3b61;*/
+/*  border-radius: 30px;*/
+/*  padding: 20px;*/
+/*  color:white;*/
+/*  display:block;*/
+/*  font-family: "Futura Maxi W05 Bold";*/
+/*  font-weight: normal;*/
+
+/*  margin: 20px 200px 20px 100px;*/
+/*}*/
+/*div {*/
+/*  display:flex;*/
+/*}*/
+/*div > div {*/
+/*  display: inline-block;*/
+/*}*/
+
+body {
+  /*background-image: url("/static/bg.png");*/
+
+}
+

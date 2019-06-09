@@ -1,0 +1,15 @@
+<br>
+<h1>Add rental</h1>
+<div class="tot">
+  <div>
+    <label>Film ID</label>
+    <input #filmId><br>
+    <label>Customer ID</label>
+    <input #customerId><br>
+  </div>
+  <div>
+    <button (click)="save(filmId.value,customerId.value)">Save-</button>
+    <button (click)="cancel()">Cancel</button>
+  </div>
+</div>
+
